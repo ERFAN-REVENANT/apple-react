@@ -5,6 +5,7 @@ import Hero from "./assets/components/Hero";
 import "../public/tailwind.css";
 import Model from "./assets/components/Model";
 import Features from "./assets/components/Features";
+import HowItWorks from "./assets/components/HowItWorks";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Highlights></Highlights>
       <Model></Model>
       <Features></Features>
+      <HowItWorks></HowItWorks>
     </main>
   );
 };

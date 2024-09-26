@@ -609,6 +609,11 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -616,6 +621,14 @@ video {
 
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .mb-5 {
@@ -638,16 +651,16 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .mt-32 {
   margin-top: 8rem;
 }
 
-.mb-24 {
-  margin-bottom: 6rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .flex {
@@ -682,6 +695,10 @@ video {
   height: 35vh;
 }
 
+.h-\[50vh\] {
+  height: 50vh;
+}
+
 .h-\[75vh\] {
   height: 75vh;
 }
@@ -696,10 +713,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[50vh\] {
-  height: 50vh;
 }
 
 .w-10 {
@@ -870,6 +883,10 @@ video {
   background-color: #42424570;
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -938,12 +955,12 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
 .pl-24 {
   padding-left: 6rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
 }
 
 .text-center {
@@ -960,6 +977,11 @@ video {
   line-height: 2.5rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -973,11 +995,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-light {
@@ -1506,6 +1523,10 @@ canvas {
 @media (min-width: 768px) {
   .md\:mt-16 {
     margin-top: 4rem;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
   }
 
   .md\:flex {
