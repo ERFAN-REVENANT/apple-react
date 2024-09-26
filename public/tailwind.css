@@ -570,24 +570,12 @@ video {
   position: relative;
 }
 
+.left-0 {
+  left: 0px;
+}
+
 .left-\[5\%\] {
   left: 5%;
-}
-
-.top-12 {
-  top: 3rem;
-}
-
-.right-\[\] {
-  right: ;
-}
-
-.right-\[-109\] {
-  right: -109;
-}
-
-.right-\[-100\] {
-  right: -100;
 }
 
 .right-\[-100\%\] {
@@ -598,8 +586,8 @@ video {
   top: 0px;
 }
 
-.left-0 {
-  left: 0px;
+.top-12 {
+  top: 3rem;
 }
 
 .z-10 {
@@ -611,6 +599,11 @@ video {
   margin-right: 0.5rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -619,11 +612,6 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .mb-12 {
@@ -654,6 +642,14 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .flex {
   display: flex;
 }
@@ -674,8 +670,20 @@ video {
   height: 83.333333%;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-\[10vw\] {
+  height: 10vw;
+}
+
 .h-\[35vh\] {
   height: 35vh;
+}
+
+.h-\[75vh\] {
+  height: 75vh;
 }
 
 .h-\[90\%\] {
@@ -690,20 +698,8 @@ video {
   height: 100%;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[75vh\] {
-  height: 75vh;
-}
-
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-\[10vw\] {
-  height: 10vw;
+.h-\[50vh\] {
+  height: 50vh;
 }
 
 .w-10 {
@@ -714,8 +710,16 @@ video {
   width: 0.75rem;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
 .w-9\/12 {
   width: 75%;
+}
+
+.w-\[10vw\] {
+  width: 10vw;
 }
 
 .w-\[88vw\] {
@@ -732,18 +736,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[10vw\] {
-  width: 10vw;
 }
 
 .max-w-md {
@@ -851,16 +843,8 @@ video {
   border-radius: 9999px;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .border {
   border-width: 1px;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .border-transparent {
@@ -958,6 +942,10 @@ video {
   padding-right: 2.5rem;
 }
 
+.pl-24 {
+  padding-left: 6rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -987,6 +975,15 @@ video {
   line-height: 1.75rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -997,10 +994,6 @@ video {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-light {
-  font-weight: 300;
 }
 
 .text-black {
@@ -1523,10 +1516,6 @@ canvas {
     height: 70vh;
   }
 
-  .md\:h-\[\] {
-    height: ;
-  }
-
   .md\:h-\[90vh\] {
     height: 90vh;
   }
@@ -1571,6 +1560,11 @@ canvas {
 
   .lg\:text-6xl {
     font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .lg\:text-7xl {
+    font-size: 4.5rem;
     line-height: 1;
   }
 }
